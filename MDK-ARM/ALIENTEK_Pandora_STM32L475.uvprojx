@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32L475xx,LOS_KERNEL_DEBUG_OUT</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;..\Middlewares\LiteOS\arch\arm\arm-m\include;..\Middlewares\LiteOS\kernel\include;..\Middlewares\LiteOS\kernel\base\include;..\Middlewares\LiteOS\kernel\extended\include;..\OS_CONFIG;..\Middlewares\LiteOS\demo\kernel\include</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;..\Middlewares\LiteOS\arch\arm\arm-m\include;..\Middlewares\LiteOS\kernel\include;..\Middlewares\LiteOS\kernel\base\include;..\Middlewares\LiteOS\kernel\extended\include;..\OS_CONFIG;..\Middlewares\LiteOS\demo\kernel\include;..\Hardware\LCD</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -746,6 +746,16 @@
               <FileName>los_inspect_entry.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LiteOS\demo\kernel\api\los_inspect_entry.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardware\LCD\lcd.c</FilePath>
             </File>
           </Files>
         </Group>

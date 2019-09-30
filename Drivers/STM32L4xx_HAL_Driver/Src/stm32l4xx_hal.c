@@ -34,7 +34,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32l4xx_hal.h"
-
+#include "los_sys.h"
 /** @addtogroup STM32L4xx_HAL_Driver
   * @{
   */
@@ -336,7 +336,8 @@ __weak void HAL_IncTick(void)
   */
 __weak uint32_t HAL_GetTick(void)
 {
-  return uwTick;
+    return (uint32_t)LOS_TickCountGet();
+//  return uwTick;
 }
 
 /**

@@ -1,6 +1,7 @@
 #include "mcu_init.h"
 #include "font.h"
-#include "cmsis_os.h"
+#include "stdio.h"
+
 /*********************************************************************************
 			  ___   _     _____  _____  _   _  _____  _____  _   __
 			 / _ \ | |   |_   _||  ___|| \ | ||_   _||  ___|| | / /
@@ -686,14 +687,15 @@ void LCD_Show_Image(uint16_t x, uint16_t y, uint16_t width, uint16_t height, con
  */
 void LCD_Init(void)
 {
-    
-    LCD_Gpio_Init();
-    
+    printf("%s[%d]:\r\n", __FUNCTION__, __LINE__);
+    //LCD_Gpio_Init();
     LCD_CS(0);
     LCD_PWR(0);
 
     LCD_RST(0);
+    printf("%s[%d]:HAL_Delay Start\r\n", __FUNCTION__, __LINE__);
     HAL_Delay(120);
+    printf("%s[%d]:HAL_Delay End\r\n", __FUNCTION__, __LINE__);
     LCD_RST(1);
     
     HAL_Delay(120);
