@@ -626,16 +626,6 @@
               <FilePath>..\Middlewares\LiteOS\kernel\base\ipc\los_sem.c</FilePath>
             </File>
             <File>
-              <FileName>los_heap.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\LiteOS\kernel\base\mem\bestfit_little\los_heap.c</FilePath>
-            </File>
-            <File>
-              <FileName>los_memory.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Middlewares\LiteOS\kernel\base\mem\bestfit_little\los_memory.c</FilePath>
-            </File>
-            <File>
               <FileName>los_memcheck.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LiteOS\kernel\base\mem\common\los_memcheck.c</FilePath>
@@ -674,6 +664,16 @@
               <FileName>los_slabmem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Middlewares\LiteOS\kernel\base\mem\common\los_slabmem.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_memory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LiteOS\kernel\base\mem\bestfit_little\los_memory.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_heap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\LiteOS\kernel\base\mem\bestfit_little\los_heap.c</FilePath>
             </File>
           </Files>
         </Group>
