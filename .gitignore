@@ -1,3 +1,7 @@
 MDK-ARM/ALIENTEK_Pandora_STM32L475/
 MDK-ARM/RTE/
 MDK-ARM/DebugConfig/
+MDK-ARM/*.uvoptx
+MDK-ARM/los_dispatch_keil.lst
+MDK-ARM/*.uvguix.*
+MDK-ARM/startup_stm32l475xx.lst
